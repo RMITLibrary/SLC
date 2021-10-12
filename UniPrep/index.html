@@ -1,0 +1,248 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>UniPrep | RMIT University</title>
+        <meta name="description" content="The UniPrep quiz is a quick self-assessment tool designed to help you transition into tertiary study at RMIT. It covers the areas of study skills, reading, writing, and critical thinking.">
+        <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0, user-scalable=0 ">
+        <meta name='viewport' content='width=device-width' />
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <!--        <link rel="stylesheet" href="css/jquery.snappish.css">-->
+        <link rel="stylesheet" href="css/component.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body >
+        <!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+        <!-- Add your site or application content here -->
+        <div id="mywrapper" class="wrapper" >
+            <div style="background-image: url(./img/swish.jpg);
+                        background-size: cover;
+                        background-position: center;height:100vh;width:100vw;position:fixed;z-index:0"></div>
+            <div index="-2" id="start" class="slide intro">
+
+                <!--                            <img src="img/swish.jpg" height="100%" style="z-index:-1;position:fixed">-->
+                <div class="header">
+                    <img alt="RMIT logo" src="./img/rmit-logo-white.svg" width="150" height="53" >
+                    <div class="heading">
+                        <h1>UniPrep</h1>
+                        <hr>
+                        <h2>The UniPrep quiz is a quick self-assessment tool designed to help you transition into tertiary study at RMIT. It covers the areas of study skills, reading, writing, and critical thinking.<br><br>
+                            Good luck with your university preparation!
+                        </h2>
+                    </div>
+
+                </div>
+                <div class="wedge">&nbsp;</div>
+                <div class="floating-animation" >
+                    <a class="readyGo" onclick="readyGo('instruction')"><h1 style="color:#fff" >Start the quiz</h1>
+                        <img alt="arrow down" src="img/arrow_down.svg" width="50"></a>
+                </div>
+            </div>
+
+            <div index="-1" id="instruction" class="slide question">
+                <div style="background-image: url(./img/dots_black_transparency_100.png);
+                            background-size: cover;
+                            background-position: center;height:100vh;width:100vw;position:absolute;opacity:.2"></div>
+                <div class="container content">
+                    <h1 class="statement">Welcome to the UniPrep quiz<hr></h1>
+                    <ul>
+                        <li><p>There are 20 questions. It should only take you around 5 minutes to complete.</p></li>
+                        <li><p>You will not be tracked – the quiz is anonymous.</p></li>
+                        <li><p>Make sure you read the individual feedback for each question.</p></li>
+                        <li><p>On completion, you will see how well-prepared you are in each area. You will also find helpful resources on the RMIT Learning Lab.</p></li>
+                    </ul>
+                </div>
+                <div class="floating-animation" >
+                    <a class="readyGo" onclick="readyGo('slide1')"><h1 >Ok, got it!</h1>
+                        <img alt="arrow down" src="img/arrow_down_grey.svg" width="50"></a>
+                </div>
+            </div>
+
+            <div id="statements">
+
+            </div>
+
+            <div id="result" class=" result"> 
+                <div class="container">
+                    <h3 class="statement" >My Results<hr></h3>
+                    <p id="thank" >Thanks for taking the quiz. Now, spend some time thinking about your results. The resources below are a great starting point to prepare you for university.<br><br>Visit the <a href="https://emedia.rmit.edu.au/learninglab/">RMIT Learning Lab</a> website for all your academic study, writing, and English language support throughout your studies.</p>
+                    <table class="table ">
+                        <tr>
+                            <td>Study Skills</td>
+                            <td id="ss">
+                                <s class="fill"></s><s class="fill"></s><s class="fill"></s><s class="no-fill"></s>
+                            </td>
+                            <td id="sst">I am well-preprared</td>
+                        </tr>
+                        <tr>
+                            <td>Reading</td>
+                            <td id="rd">
+                                <s class="fill"></s><s class="fill"></s><s class="fill"></s><s class="no-fill"></s>
+                            </td>
+                            <td id="rdt">I am well-preprared</td>
+                        </tr>
+                        <tr>
+                            <td>Writing</td>
+                            <td id="wt">
+                                <s class="fill"></s><s class="fill"></s><s class="fill"></s><s class="no-fill"></s>
+                            </td>
+                            <td id="wtt">I am well-preprared</td>
+                        </tr>
+                        <tr>
+                            <td>Critical Thinking</td>
+                            <td id="ct">
+                                <s class="fill"></s><s class="fill"></s><s class="fill"></s><s class="no-fill"></s>
+                            </td>
+                            <td id="ctt">I am well-preprared</td>
+                        </tr>
+                    </table>
+                    <div style="height:80px">
+                        <a target="_blank" href="doc/Uniprep_Quiz_Answers_and_Feedback.pdf" style="float:right;border-radius: 3px;" class="btn btn-2 btn-2c-dark btn-sm"><img src="img/tick_circle.svg" width="15" height="15"> Download quiz and feedback (PDF 117 KB)</a>
+                    </div>
+                </div>
+
+                <div id="resources" class="container">
+                    <h1>Resources</h1>
+                    <hr>
+                    <div>
+                        <div class="resource">
+                            Study Skills:
+                            <ul>
+                                <li><a target="_blank" href="https://emedia.rmit.edu.au/learninglab/content/managing-my-time-0">Time management</a></li>
+                                <li><a target="_blank" href="https://emedia.rmit.edu.au/learninglab/content/studying-efficiently">Studying efficiently</a></li>
+                                <li><a target="_blank" href="https://emedia.rmit.edu.au/learninglab/content/international-student-stories">International student stories</a></li>
+                                <li><a target="_blank" href="https://emedia.rmit.edu.au/learninglab/content/note-taking">Note taking</a></li>
+                            </ul>
+                        </div>
+                        <div class="resource">
+                            Reading:
+                            <ul>
+                                <li><a target="_blank" href="https://emedia.rmit.edu.au/learninglab/content/reading-skills">Reading skills</a></li>
+                                <li><a target="_blank" href="https://emedia.rmit.edu.au/learninglab/node/94">Reading efficiently</a></li>
+                            </ul>
+                        </div>
+                        <div class="resource">
+                            Writing:
+                            <ul>
+                                <li><a target="_blank" href="https://emedia.rmit.edu.au/learninglab/content/writing-skills">Writing</a></li>
+                            </ul>
+                        </div>
+                        <div class="resource">
+                            Using Ideas/Academic Integrity:
+                            <ul>
+                                <li><a target="_blank" href="https://emedia.rmit.edu.au/learninglab/content/referencing">Referencing</a></li>
+                                <li><a target="_blank" href="https://emedia.rmit.edu.au/learninglab/content/critical-thinking">Critical thinking</a></li>
+                            </ul>
+                        </div>
+                        <div class="resource">
+                            Assessment Tasks:
+                            <ul>
+                                <li><a target="_blank" href="https://emedia.rmit.edu.au/learninglab/content/assessment-tasks">Assessment tasks</a></li>
+                                <li><a target="_blank" href="https://emedia.rmit.edu.au/learninglab/smarthinking">Ask for assignment feedback </a>(login required)</li>
+                            </ul>
+                        </div>
+                        <div class="resource">
+                            Getting Help:
+                            <ul>
+                                <li><a target="_blank" href="http://www1.rmit.edu.au/browse;ID=xuhuhx9fm6plz">Learning support</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div style="height:80px;border-top:1px solid #ccc">
+                        <a target="_blank" href="doc/Uniprep_Useful_Resources.pdf" style="float:right;border-radius: 3px;" class="btn btn-2 btn-2c-dark btn-sm"><img src="img/download_file.svg" width="15" height="15"> Download resource links (PDF)</a>
+                    </div>
+                </div>
+
+                <div class="learningLab" id="learningLab">
+                    <div class="content" style="top:50%">
+                        <a href="https://emedia.rmit.edu.au/learninglab/" target="_blank" class="layer btn" data-depth="0.25">Take me to the Learning Lab</a>
+                    </div>
+                    <div id="dots-bg" class="layer" data-depth="0.30"></div>
+                    <p style="position:absolute;bottom:0px;color:#fafafa;width:100%;font-size:13px">Copyright © 2016 RMIT University | Developed by Curriculum Services | <a href="http://www1.rmit.edu.au/studyandlearningcentre">Study and Learning Centre</a> | <a href="http://www.rmit.edu.au/privacy">Privacy</a> | <a href="http://www.rmit.edu.au/help/disclaimer">Disclaimer</a></p>
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <!--
+<div class="overlay overlay-fade">
+<nav>
+<div class="dialog">
+<h2 style="padding:20px;margin:0;font-family:museo700">Well done!</h2>
+<hr style="margin:0">
+<p class="text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+<button class="btn btn-2 btn-2c btn-2c-dark" style="margin-bottom:30px" onclick="nextQuestion()">OK, got it</button>
+</div>
+</nav>
+</div>
+-->
+
+        <!--      go die IE! fullscreen dialog-->
+        <style>
+            .fullscreen{position:fixed;width:100%;height:100%;background:rgba(0,0,0,.8);top:0;left:0;z-index:100;}
+            .fullscreen .dialog {position: relative;width:50%;margin: auto;top: 45%; transform: translateY(-50%);color: #fff}
+        </style>
+        <div class="fullscreen ie" style="display:none">
+            <div class="dialog">
+                <h2>It looks like you're using Internet Explorer</h2>
+                <p>Internet Explorer is not supported by this page, and viewing it with this browser may result in incorrectly rendered content and missing functionality. Please consider using one of these modern browsers below instead.</p>
+                <img src="img/Chrome-50.png">
+                <img src="img/Firefox-50.png">
+                <img src="img/Safari-50.png">
+                <img src="img/Opera-50.png">
+                <!--               <img src="images/MS%20Edge-50.png">-->
+            </div>
+        </div>
+
+
+        <footer>
+            <div class="progBar">&nbsp;</div>
+            <p style="width:70%"><span id="sec-now">STUDY STRATEGIES</span></p>
+            <p style="text-align:right;font-size:15px;width:28%"><span id="odometer" class="odometer"></span><span style="vertical-align:top">/20</span></p>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="js/vendor/parallax.min.js"></script>
+        <script src="js/data.js"></script>
+        <script src="js/vendor/jquery.waypoints.min.js"></script>
+        <script src="js/vendor/odometer.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                                    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-66654290-18', 'auto');
+            ga('send', 'pageview');
+
+        </script>
+        <!--
+<script>
+(function(){
+setInterval("document.body.style.zoom=1/window.devicePixelRatio",1);
+var viewport=document.createElement("meta");
+viewport.id="viewport";
+viewport.name="viewport";
+viewport.content="width=device-width, initial-scale=1";
+document.body.parentElement.children[0].appendChild(viewport);
+})()
+</script>
+-->
+    </body>
+</html>
