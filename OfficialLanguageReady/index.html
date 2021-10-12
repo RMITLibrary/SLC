@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>UniReady: Language | RMIT University</title>
+        <meta name="author" content="RMIT University">
+        <meta name="description" content="The UniReady: Language quiz is a quick self-assessment tool designed to help you transition into tertiary study at RMIT. It covers the areas of reading, writing, speaking, and listening.">
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="css/component.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="icon" type="image/png" href="favicon.png" sizes="96x96">
+        <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <header>
+            <nav class="container">
+                <ul class="category-list">
+                    <li class="active">Reading</li>
+                    <li>Listening</li>
+                    <li>Writing</li>
+                    <li>Speaking</li>
+                    <li>My Results</li>
+                </ul>
+                <div class="rmit-logo">
+                    <a href="http://www.rmit.edu.au">
+                        <img alt="RMIT logo" src="./img/rmit-logo-white.svg">
+                    </a>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Hero banner -->
+        <div id="page-wrapper" class="wrapper">
+            <div class="floating-animation">
+                    <a class="btn-go btn-go-red" onclick='readyGo("instruction")'>
+                        <h2>Start the quiz</h2>
+                    </a>
+            </div>
+            <div id="hero-wrapper"><div>
+            <div index="-2" id="start" class="slide intro">
+                <a href="http://www.rmit.edu.au">
+                    <img alt="RMIT logo" class="hero-logo" src="./img/rmit-logo-white.svg">
+                </a>
+                <div class="header">
+                    <div class="heading">
+                        <h1>UniReady: Language</h1>
+                        <hr>
+                        <h2>
+                            The UniReady: Language quiz is a quick self-evaluation tool. It will raise your awareness of your ability to communicate in the areas of reading, listening, writing, and speaking at tertiary level.
+                            <br><br>
+                            RMIT offers a range of language support for you to improve your communication in these areas and several self-access resources are available at the end of the quiz.
+                            <br><br>
+                            Good luck with your studies at RMIT!
+                        </h2>
+                    </div>
+                </div>
+            </div>            
+
+            <!-- Instructions -->
+            <div index="-1" id="instruction" class="slide question">
+                <div class="content">
+                    <h1 class="statement red">Are you Language Ready?</h1>
+                    <ul class="instruction-table">
+                        <li>
+                            <p>There are four categories: reading, listening, writing, and speaking.</p>
+                        </li>
+                        <li>
+                            <p>For each category, select the statement that <strong>best describes you</strong>.</p>
+                        </li>
+                        <li>
+                            <p>You will not be tracked &ndash; the quiz is anonymous.</p>
+                        </li>
+                        <li>
+                            <p>On completion of the quiz, you will be given tailored feedback for each area. You will 
+                                also find links to study resources on the RMIT Learning Lab to help you improve 
+                                your language skills.</p>
+                        </li>
+                    </ul>
+                    <div class="ready-btn-container">
+                        <a class="btn btn-white ready-btn" onclick='readyGo("slide1")'>
+                            <span>OK, got it!</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quiz -->
+            <div id="statements"></div>
+
+            <!-- Results -->
+            <div id="result" index="5" class="question result"> 
+                <div class="container">
+                    <h3 class="statement">My Results<hr></h3>
+                    <p id="thank">
+                        Thanks for taking the quiz. Spend some time thinking about your results.<br><br>
+                        Visit the <a href="https://emedia.rmit.edu.au/learninglab/">RMIT Learning Lab</a> for all your language support needs throughout your studies. The resources below are a great starting point to prepare you for university.</p>
+                    <table class="table">
+                        <tr id="reading">
+                            <td>Reading</td>
+                            <td class="stars">
+                                <s class="fill"></s><s class="fill"></s><s class="fill"></s><s class="no-fill"></s>
+                            </td>
+                            <td class="feedback">Reading</td>
+                        </tr>
+                        <tr id="listening">
+                            <td>Listening</td>
+                            <td class="stars">
+                                <s class="fill"></s><s class="fill"></s><s class="fill"></s><s class="no-fill"></s>
+                            </td>
+                            <td class="feedback">Listening</td>
+                        </tr>
+                        <tr id="writing">
+                            <td>Writing</td>
+                            <td class="stars">
+                                <s class="fill"></s><s class="fill"></s><s class="fill"></s><s class="no-fill"></s>
+                            </td>
+                            <td class="feedback">Writing</td>
+                        </tr>
+                        <tr id="speaking">
+                            <td>Speaking</td>
+                            <td class="stars">
+                                <s class="fill"></s><s class="fill"></s><s class="fill"></s><s class="no-fill"></s>
+                            </td>
+                            <td class="feedback">Speaking</td>
+                        </tr>
+                    </table>
+                    <div style="height:20px"></div>
+                </div>
+
+                <!-- Resources -->
+                <div id="resources" class="container">
+                    <h1>Study Resources</h1>
+                    <hr>
+                    <div>
+                        <div class="resource">
+                            <p style="text-align:left">
+                                What next? Use the resources below to support your studies at RMIT.<br><br>
+                                
+                                You can also visit the <a href="https://emedia.rmit.edu.au/learninglab/">RMIT Learning Lab</a> for all your academic study, writing, and English language support throughout your studies.
+                            </p>
+                            <br>
+                            <p class="improve-english">
+                                <a class="grey" href="https://emedia.rmit.edu.au/learninglab/content/improve-your-english">
+                                Improve your language on the RMIT Learning Lab</a>:
+                            </p>
+                            <ul>
+                                <li><a href="https://emedia.rmit.edu.au/learninglab/content/writing-skills">Writing skills</a>: Check out some of the 
+                                essential writing skills needed in tertiary study.</li>
+
+                                <li><a href="https://emedia.rmit.edu.au/learninglab/content/reading-skills">Reading skills</a>: Learn about skimming 
+                                and scanning strategies as well as how to organise the information you have just read.</li>
+
+                                <li><a href="https://emedia.rmit.edu.au/learninglab/content/spelling-0">Spelling</a>: Learn about the major spelling rules 
+                                used in the English language with activities that will test your skills.</li>
+
+                                <li><a href="https://emedia.rmit.edu.au/learninglab/content/oral-presentations">Oral presentations</a>: Plan and prepare for 
+                                oral presentations at university with these resources.</li>
+
+                                <li><a href="https://emedia.rmit.edu.au/learninglab/content/tips-students">Tips from students</a>: A series of 
+                                videos from RMIT international students sharing tips on how to improve your English.</li>
+
+                                <li><a href="https://emedia.rmit.edu.au/learninglab/content/academic-word-list-tool">Academic word list tool</a>: Develop 
+                                your vocabulary by studying the list of 570 commonly used academic words. There are a range of fun games and activities to help 
+                                you learn.</li>
+
+                                <li><a href="https://emedia.rmit.edu.au/learninglab/content/useful-websites">Useful websites</a>:
+                                A comprehensive list of websites compiled to help you improve your English.</li>
+
+                                <li><a href="https://emedia.rmit.edu.au/learninglab/content/improve-your-english">Improve your English</a>: 
+                                Includes English practice activities, a collection of interactive websites designed to improve your IELTS readiness, vocabulary, pronunciation and grammar.</li>
+                            </ul>
+                            <p>
+                                <a class="grey" href="https://www.rmit.edu.au/students/study-support/workshops/english-uni-workshops">Improve your English</a>:
+                                <ul>
+                                    <li>Attend the English for uni workshops during the semester. Meet new friends and improve your language skills on the go.</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Prompt StudyReady quiz -->
+                    <div id="studyready" class="container">
+                        <h1>UniReady: Study Skills Quiz</h1>
+                        <hr>
+                        <div class="studyready-text">
+                            <p id="ready-paragraph">Have you tried the <a id="studyready-url" href="https://www.dlsweb.rmit.edu.au/slc/OfficialStudyReady">StudyReady quiz</a>? Check it out now.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Footer -->
+                <div class="learningLab" id="learningLab">
+                    <div class="content" style="top:50%">
+                        <a href="https://emedia.rmit.edu.au/learninglab/" class="layer btn" data-depth="0.25">Take me to the Learning Lab</a>
+                    </div>
+                    <div id="dots-bg" class="layer" data-depth="0.30"></div>
+                    <p style="position:absolute;bottom:20px;color:#fafafa;width:100%;font-size:13px;padding:0 10px">Copyright &copy; 2018 RMIT University | Developed by RMIT University Library | <a href="https://www.rmit.edu.au/library">RMIT University Library</a> | <a href="http://www.rmit.edu.au/privacy">Privacy</a> | <a href="http://www.rmit.edu.au/help/disclaimer">Disclaimer</a></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Odometer -->
+        <footer>
+            <div class="odometer-container">
+                <span id="odometer" class="odometer"></span><span style="vertical-align:top">/5</span>
+            </div>
+        </footer>
+
+        <style>.fullscreen{position:fixed;width:100%;height:100%;background:rgba(0,0,0,.8);top:0;left:0;z-index:100}.fullscreen .dialog{position:relative;width:50%;margin:auto;top:45%;transform:translateY(-50%);color:#fff}.fullscreen button{background:0 0;border:1px solid #fff;border-radius:5px;color:#fff;padding:5px 10px}</style>
+        <div class="fullscreen ie" style="display:none">
+            <div class="dialog">
+                <h2>It looks like you're using Internet Explorer</h2>
+                <p>Internet Explorer is not supported by this page, and viewing it with this browser may result in incorrectly rendered content and missing functionality. Please consider using one of these modern browsers below instead.</p>
+                <img src="img/Chrome-50.png">
+                <img src="img/Firefox-50.png">
+                <img src="img/Safari-50.png">
+                <img src="img/Opera-50.png">
+                <!-- <img src="images/MS%20Edge-50.png"> -->
+                <div style="margin-top:20px;text-align:center">
+                    <button>OK, got it.</button>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery||document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="js/vendor/parallax.min.js"></script>
+        <script src="js/data.js"></script>
+        <script src="js/vendor/jquery.waypoints.min.js"></script>
+        <script src="js/vendor/odometer.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <script>!function(e,t,a,n,c,o,s){e.GoogleAnalyticsObject=c,e[c]=e[c]||function(){(e[c].q=e[c].q||[]).push(arguments)},e[c].l=1*new Date,o=t.createElement(a),s=t.getElementsByTagName(a)[0],o.async=1,o.src="https://www.google-analytics.com/analytics.js",s.parentNode.insertBefore(o,s)}(window,document,"script",0,"ga"),ga("create","UA-66654290-20","auto"),ga("send","pageview")</script>
+    </div></div></body>
+</html>
