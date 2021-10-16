@@ -203,10 +203,8 @@ var data = [
   },
   {
     'secNum': 3,
-    'statement': '<h1 class="email-h1">Send me a copy of my responses</h1><p class="email-paragraph"> \
-      Please enter your email address in the field below if you wish to receive a copy of your responses. \
-      Otherwise, press \'Skip and see my results\'.<br><br><strong>Please note:</strong> The format of your RMIT student email is \
-      s1234567@student.rmit.edu.au.</p>',
+    'statement': '<h1 class="email-h1">You\'re Done</h1><p class="email-paragraph"> \
+      You\'ve completed the self assessment quiz, you can now skip forward to your results. \</p>',
     'answer': '',
     'feedback-F': '',
     'feedback-T': '',
