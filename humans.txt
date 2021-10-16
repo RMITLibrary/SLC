@@ -1,10 +1,17 @@
 # humanstxt.org/
 # The humans responsible & technology colophon
 
+# Team
+    Jacqueline Shadforth
+    
+    Updates 2021        
+        AJ Penrose
+        Jack Dunstan
+
 
 # THANKS
 
-    Campbell Ding
+    Campbell Ding - https://www.linkedin.com/in/campbell-ding/
 
 # TECHNOLOGY COLOPHON
 
