@@ -33,6 +33,11 @@ The quizzes have the following Google Analytics entities
 * Getting started: Study skills - UA-66654290-22
 * Getting started: Maths quiz - UA-66654290-23
 
+## Developer notes
+
+Language ready seems to be the easiest to redevelop for new self assessment tools.
+Maths quiz does not have a contained developer environment
+
 ## Changelog
 
 2021
@@ -44,6 +49,7 @@ The quizzes have the following Google Analytics entities
 * Updated links to RMIT support resources
 * Added favicons for better mobile usability
 * Added open Graph data for better sharing and SEO
+* Updated RMIT icons to RMIT University Library Icons and linked to Library home page
 
 2017 - 2018
 
