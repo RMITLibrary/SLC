@@ -38,6 +38,20 @@ The quizzes have the following Google Analytics entities
 Language ready seems to be the easiest to redevelop for new self assessment tools.
 Maths quiz does not have a contained developer environment
 
+Study Ready has downloadable pdf with results, that's nice
+
+All files to be placed in  
+/sites/departments/emedia/public/dlsweb/slc/gettingstarted
+which resolve at
+https://emedia.rmit.edu.au/gettingstarted
+
+
+gettingstarted/
+├─ maths/
+├─ language/
+├─ study/
+├─ index.html (menu page)
+
 ## Changelog
 
 2021
@@ -59,6 +73,7 @@ Maths quiz does not have a contained developer environment
 
 * Update to current branding
 * Update to current icons
+* Remove paper imagery and replace with laptops? 
 
 
 
