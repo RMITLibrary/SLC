@@ -47,12 +47,11 @@ https://emedia.rmit.edu.au/gettingstarted
 
 ```bash
 gettingstarted/
-├─ maths/
-├─ language/
-├─ study/
-├─ index.html (menu page)
+    ├─ maths/
+    ├─ language/
+    ├─ study/
+    └─ index.html (menu page)
 ```
-
 ## Changelog
 
 2021
