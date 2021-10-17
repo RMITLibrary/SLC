@@ -39,12 +39,13 @@ The quizzes have the following Google Analytics entities
 
 * Updated internal paths to run as location agnotistic webapps
 * Removed 'send me a copy of my responses' - this was sending student info to a google form, though not authenticating. Was anyone aware of this feature not working?
-* Removed or updated links to non existent RMIT Library services
+* Removed or updated links to         RMIT Library services
     https://www.rmit.edu.au/students/study-support/study-support-hub --> https://www.rmit.edu.au/students/study-support
 * Updated links to RMIT support resources
 * Added favicons for better mobile usability
 * Added open Graph data for better sharing and SEO
-* Updated RMIT icons to RMIT University Library Icons and linked to Library home page
+* Updated RMIT icons to RMIT University Library icons and linked to Library home page
+* Adjusted contrast of some text to improve accessibility
 
 2017 - 2018
 
@@ -57,7 +58,7 @@ Maths quiz does not have a contained developer environment
 
 Study Ready has downloadable pdf with results, that's nice
 
-All files to be placed in  
+All files to be placed in
 /sites/departments/emedia/public/dlsweb/slc/gettingstarted
 which resolve at
 https://emedia.rmit.edu.au/gettingstarted
@@ -75,7 +76,8 @@ gettingstarted/
 
 * Update to current branding
 * Update to current icons
-* Remove paper imagery and replace with laptops? 
+* Remove paper imagery and replace with laptops?
+* Review accessibilty against WCAG AA 2.1 framework
 
 
 
