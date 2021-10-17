@@ -46,15 +46,11 @@ which resolve at
 https://emedia.rmit.edu.au/gettingstarted
 
 ```bash
-gettingstarted
-+-- maths
-|   +-- files*.*
-+-- language
-|   +-- files*.*
-+-- study
-|   +-- files*.*
-+-- index.html (menu page)
-+-- files*.*
+gettingstarted/
+├─ maths/
+├─ language/
+├─ study/
+├─ index.html (menu page)
 ```
 
 ## Changelog
