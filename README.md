@@ -45,7 +45,7 @@ All files to be placed in
 which resolve at
 https://emedia.rmit.edu.au/gettingstarted
 
-
+```bash
 gettingstarted
 +-- maths
 |   +-- files*.*
@@ -55,6 +55,7 @@ gettingstarted
 |   +-- files*.*
 +-- index.html (menu page)
 +-- files*.*
+```
 
 ## Changelog
 
