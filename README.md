@@ -46,11 +46,15 @@ which resolve at
 https://emedia.rmit.edu.au/gettingstarted
 
 
-gettingstarted/
-├─ maths/
-├─ language/
-├─ study/
-├─ index.html (menu page)
+gettingstarted
++-- maths
+|   +-- files*.*
++-- language
+|   +-- files*.*
++-- study
+|   +-- files*.*
++-- index.html (menu page)
++-- files*.*
 
 ## Changelog
 
