@@ -46,6 +46,7 @@ The quizzes have the following Google Analytics entities
 * Added open Graph data for better sharing and SEO
 * Updated RMIT icons to RMIT University Library icons and linked to Library home page
 * Adjusted contrast of some text to improve accessibility
+* Removed RMIT disclaimer links in footer, they now go to RMIT's Terms of service page
 
 2017 - 2018
 
