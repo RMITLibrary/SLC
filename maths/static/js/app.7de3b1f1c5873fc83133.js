@@ -9,7 +9,7 @@ webpackJsonp([1], { "+Gxq": function (M, t, s) { "use strict"; var L = s("fnDg")
             answers: ["Less than a year", "1-2 years", "3-5 years", "6-9 years", "Over 10 years"]
         }, {
             statement: "I would rate my current maths skills as: ",
-            answers: ["Extremely worried", "A bit worried", "Whatever", "A little concerned", "Not at all concerned"]
+            answers: ["Tragic", "Weak", "OK", "Strong", "Amazing"]
         }, {
             statement: "How much do you enjoy studying maths?",
             answers: ["Tragic", "Weak", "OK", "Strong", "Amazing"]
@@ -33,7 +33,7 @@ webpackJsonp([1], { "+Gxq": function (M, t, s) { "use strict"; var L = s("fnDg")
             answers: ["What is Excel?", "Probably not", "I used to know", "Maybe", "Too easy"]
         }, {
             statement: "I can use a calculator in statistics mode to calculate a standard deviation.",
-            answers: ["Calculate what?", "I don't think so", "I've forgotten how", "Maybe", "Of course I can"]
+            answers: ["Of course I can", "Maybe", "I've forgotten how", "I don't think so", "Calculate what?"]
         }]
     }, {
         course: "Engineering",
@@ -50,7 +50,7 @@ webpackJsonp([1], { "+Gxq": function (M, t, s) { "use strict"; var L = s("fnDg")
             statement: "My level of concern about coping with maths in my course is:",
             answers: ["Extremely worried", "A bit worried", "Whatever", "A little concerned", "Not at all concerned"]
         }, {
-            statement: "I enjoy studying maths.",
+            statement: "How much do you enjoy studying maths?",
             answers: ["Not at all", "Not much", "It's OK", "Quite a lot", "Very much"]
         }, {
             statement: "If a course has no maths prerequisites, my current maths skills will be sufficient.",
